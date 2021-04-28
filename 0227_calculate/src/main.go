@@ -13,7 +13,7 @@ type IModule interface {
 }
 
 const (
-	ModuleId_PlayerModle  = 1
+	ModuleId_PlayerModle  = iota
 )
 
 type ModuleMgr struct {
